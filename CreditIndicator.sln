@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIndicator.Services", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIndicator.DAL", "CreditIndicator.DAL\CreditIndicator.DAL.csproj", "{58D45E4A-2593-42C5-B7F5-1AEA80A3BE3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIndicator.Contracts", "CreditIndicator.Contracts\CreditIndicator.Contracts.csproj", "{59F2A6FF-6AB0-4524-8612-2CD52F9E1204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIndicator.UnitTest", "CreditIndicator.UnitTest\CreditIndicator.UnitTest.csproj", "{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{58D45E4A-2593-42C5-B7F5-1AEA80A3BE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D45E4A-2593-42C5-B7F5-1AEA80A3BE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D45E4A-2593-42C5-B7F5-1AEA80A3BE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F2A6FF-6AB0-4524-8612-2CD52F9E1204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F2A6FF-6AB0-4524-8612-2CD52F9E1204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F2A6FF-6AB0-4524-8612-2CD52F9E1204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F2A6FF-6AB0-4524-8612-2CD52F9E1204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
