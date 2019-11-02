@@ -8,15 +8,19 @@ namespace CreditIndicator.Contracts.Models
 {
     public class FeatureModel
     {
+        private string assetNumber;
+        private bool inInventory;
+        private int id;
+
         [Key]
-        public int Id { get; set; }
+        public int Id { get => id; set => id = value; }
 
         public long AcquireDate { get; set; }
 
         [DefaultValue("")]
-        public string AssetNumber { get; set; }
+        public string AssetNumber { get => assetNumber; set => assetNumber = value; }
 
         [DefaultValue(0)]
-        public bool InInventory { get; set; }
+        public bool InInventory { get => inInventory; set => inInventory = value; }
     }
 }

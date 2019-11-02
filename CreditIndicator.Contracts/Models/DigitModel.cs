@@ -7,19 +7,26 @@ namespace CreditIndicator.Contracts.Models
 {
     public class DigitModel
     {
-        public int Id { get; set; }
+        private int id;
+        private long acquireDate;
+        private int itemCode;
+        private string assetNumber;
+        private decimal itemValue;
+        private bool isFinancial;
 
-        public long AcquireDate { get; set; }
+        public int Id { get => id; set => id = value; }
 
-        public int ItemCode { get; set; }
+        public long AcquireDate { get => acquireDate; set => acquireDate = value; }
+
+        public int ItemCode { get => itemCode; set => itemCode = value; }
 
         [DefaultValue("")]
-        public string AssetNumber { get; set; }
+        public string AssetNumber { get => assetNumber; set => assetNumber = value; }
 
         [DefaultValue(null)]
-        public decimal ItemValue { get; set; }
+        public decimal ItemValue { get => itemValue; set => itemValue = value; }
 
         [DefaultValue(0)]
-        public bool IsFinancial { get; set; }
+        public bool IsFinancial { get => isFinancial; set => isFinancial = value; }
     }
 }
