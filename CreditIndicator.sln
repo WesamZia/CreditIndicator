@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIndicator.Services", "CreditIndicator.Services\CreditIndicator.Services.csproj", "{E33D919B-E914-4FFB-97F9-081577EE6F4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditIndicator.Services", "CreditIndicator.Services\CreditIndicator.Services.csproj", "{E33D919B-E914-4FFB-97F9-081577EE6F4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIndicator.DAL", "CreditIndicator.DAL\CreditIndicator.DAL.csproj", "{58D45E4A-2593-42C5-B7F5-1AEA80A3BE3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditIndicator.DAL", "CreditIndicator.DAL\CreditIndicator.DAL.csproj", "{58D45E4A-2593-42C5-B7F5-1AEA80A3BE3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIndicator.Contracts", "CreditIndicator.Contracts\CreditIndicator.Contracts.csproj", "{59F2A6FF-6AB0-4524-8612-2CD52F9E1204}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditIndicator.Contracts", "CreditIndicator.Contracts\CreditIndicator.Contracts.csproj", "{59F2A6FF-6AB0-4524-8612-2CD52F9E1204}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIndicator.UnitTest", "CreditIndicator.UnitTest\CreditIndicator.UnitTest.csproj", "{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditIndicator.UnitTest", "CreditIndicator.UnitTest\CreditIndicator.UnitTest.csproj", "{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIndicator.Console", "CreditIndicator.Console\CreditIndicator.Console.csproj", "{26A87264-35AA-47C1-A8EF-BDFF2D6FB565}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2D0F020-43B0-4DAE-83EE-8E585D1BB764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A87264-35AA-47C1-A8EF-BDFF2D6FB565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A87264-35AA-47C1-A8EF-BDFF2D6FB565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A87264-35AA-47C1-A8EF-BDFF2D6FB565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A87264-35AA-47C1-A8EF-BDFF2D6FB565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
