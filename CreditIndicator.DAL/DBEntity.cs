@@ -17,6 +17,7 @@ namespace CreditIndicator.DAL
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            //TODO
             //modelBuilder.Configurations.Add(new DigitMapper());
             //modelBuilder.Configurations.Add(new FeatureMapper());
         }
