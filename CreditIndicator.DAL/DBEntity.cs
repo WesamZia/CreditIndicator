@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Data.Entity;
 using CreditIndicator.Contracts.Models;
+using System.Diagnostics;
+using CreditIndicator.DAL.FluentAPIMappers;
 
 namespace CreditIndicator.DAL
 {
@@ -13,13 +15,15 @@ namespace CreditIndicator.DAL
             Configuration.LazyLoadingEnabled = false;
             Database.SetInitializer(new IndicatorDataInitializer());
 
+            //activate to log DB queries
+            //Database.Log = o => Debug.Print(o);
+
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            //TODO
-            //modelBuilder.Configurations.Add(new DigitMapper());
-            //modelBuilder.Configurations.Add(new FeatureMapper());
+            modelBuilder.Configurations.Add(new DigitMapper());
+            modelBuilder.Configurations.Add(new FeatureMapper());
         }
 
 

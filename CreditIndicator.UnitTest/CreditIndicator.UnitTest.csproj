@@ -13,4 +13,9 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CreditIndicator.Contracts\CreditIndicator.Contracts.csproj" />
+    <ProjectReference Include="..\CreditIndicator.Services\CreditIndicator.Services.csproj" />
+  </ItemGroup>
+
 </Project>

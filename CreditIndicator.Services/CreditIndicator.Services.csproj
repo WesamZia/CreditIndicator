@@ -5,9 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\" />
-    <Folder Include="Services\" />
-    <Folder Include="Processes\" />
+    <ProjectReference Include="..\CreditIndicator.Contracts\CreditIndicator.Contracts.csproj" />
+    <ProjectReference Include="..\CreditIndicator.DAL\CreditIndicator.DAL.csproj" />
   </ItemGroup>
 
 </Project>
